@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  
+<div class="instructions">
+  
+  <label><input type="checkbox" id="hand_choice"> <span>bu duyme <b>sol el</b></span></label>
+</div>
+
+<div class="debug_window">
+  <video class="input_video"></video>
+  <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+</div>
+
+<div class="movable photo photo_a">
+  <div class="photo_frame">
+    <img src="foto1.jpg" alt="garden pond" />
+  </div>
+</div>
+
+<div class="movable photo photo_b">
+  <div class="photo_frame">
+    <img src="foto2.jpg" alt="sun over mountains" />
+  </div>
+</div>
+
+<div class="movable photo photo_c">
+  <div class="photo_frame">
+    <img src="foto3.jpg" alt="sun over mountains" />
+  </div>
+</div>
+
+<div class="movable photo photo_d">
+  <div class="photo_frame">
+    <img src="foto4.jpg" alt="sun over mountains" />
+  </div>
+</div>
+
+<div class="cursor wand"></div>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="main.js"></script>
+</body>
+</html>
