@@ -4,7 +4,7 @@ leftyCheckbox.addEventListener('change', () => {
 });
 
 const OPTIONS = {
-  IS_DEBUG_MODE: true,
+  IS_DEBUG_MODE: false,
   PREFERRED_HAND: leftyCheckbox.checked ? 'left' : 'right',
   PINCH_DELAY_MS: 60,
 };
